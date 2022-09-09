@@ -1,0 +1,122 @@
+body{
+	/*margin: 0px;*/
+}
+.main-page{
+	width: 500px;
+	/*margin-top: 10%;*/
+	/*border: 5px solid blueviolet;*/
+}
+.dashboard{
+	width: 1200px;
+}
+.row{
+	height: auto;
+	display: flex;
+	background-color: blueviolet;
+	text-align: center;
+}
+.col-1{
+	padding: 10px;
+	width: 100%;
+}
+.col-2{
+	padding: 10px;
+	width: 50%;
+	background-color: white;
+	/*text-align: right;*/
+}
+.col-3{
+	padding: 10px;
+	width: 33.33%;
+	background-color: lime;
+}
+.col-4{
+	padding: 10px;
+	width: 25%;
+	background-color: lime;
+}
+.btn{
+	margin: 0px 15%;
+	cursor: pointer;
+}
+h2{
+	font-size: 24px;
+	color: white;
+	margin: 0px;
+}
+.submit{
+	width: 30%;
+    color: blueviolet;
+    background-color: white;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+}
+.submit:hover {
+	color: white;
+	background-color: blueviolet;
+}
+.submit:active {
+	color: blueviolet;
+	background-color: lime;
+}
+.signup{
+	/*display: none;*/
+}
+.error{
+	color: white;
+	background-color: white;
+}
+a{
+	text-decoration: none;
+	margin: 10px 0px;
+}
+.sidebar{
+	width: 7%;
+	border-radius: 50px;
+}
+/*#in{
+	display: none;
+}*/
+.dropdown{
+    position: relative;
+    display: inline-block;
+    background-color: lightgray;
+    width: 0%;
+    padding: 0px;
+    text-align: center;
+    cursor: pointer;
+}
+.dropdown:hover{
+    background-color: darkgray;
+
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: 140px;
+    /*max-height: 500px;*/
+    z-index: 1;
+    padding: 10px;
+    margin: -20px 0;
+    font-size: 18px;
+}
+.dropdown:hover .dropdown-content{
+    display: inline-block;
+}
+#update-user-profile{
+	display: none;
+}
+#change-password{
+	display: none;
+}
+.back{
+	border: 0px;
+}
+.back .row{	
+	background-color: white;
+}
+.back .row a{
+	font-size: 20px;
+}
